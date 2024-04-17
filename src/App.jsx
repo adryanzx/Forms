@@ -1,4 +1,4 @@
-// SignupForm.jsx
+
 import React, { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { RiUserFill } from 'react-icons/ri';
@@ -65,9 +65,9 @@ const Form = () => {
             <RiUserFill />
           </IconContext.Provider>
           <input
-            type="text"
-            id="text"
-            name="text"
+            type="number"
+            id="cpf"
+            name="cpf"
             placeholder="CPF (apenas números)"
             value={formData.number}
             onChange={handleInputChange}

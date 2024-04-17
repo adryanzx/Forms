@@ -19,7 +19,15 @@
   margin-bottom: 20px;
   width: 100%;
 }
+.form {
+  margin-bottom: 20px;
+  width: 100%;
+}
 
+.form .icon{
+  margin-right: 10px;
+  color: #ffffff;
+}
 .icon {
   margin-right: 10px;
   color: #ffffff;
@@ -27,6 +35,7 @@
 
 input[type='text'],
 input[type='email'],
+input[type='number'],
 input[type='password'] {
   width: 100%;
   padding: 10px;
